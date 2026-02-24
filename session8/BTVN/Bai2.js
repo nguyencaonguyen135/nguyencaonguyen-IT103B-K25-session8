@@ -1,0 +1,15 @@
+const playerNames = [
+  "Messi",
+  "Ronaldo",
+  "Neymar",
+  "De Bruyne",
+  "Kante",
+  "Van Dijk",
+  "Alisson"
+];
+
+const getUpperNames = (playerNames) => {
+  return playerNames.map((name) => name.toUpperCase());
+};
+
+console.log(getUpperNames(playerNames));
